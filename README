@@ -1,0 +1,13 @@
+BDD Windows Test Automaton skeleton, using CPython, lettuce and pywinauto.
+
+Notes:
+	pywinauto only works with 32 bit Python, and it doesn't seem to handle custom controls very well. :(
+
+One time setup:
+	1. Install 32 bit Python v2.7 (http://www.python.org);  Add Python to the system path.
+	2. Install Python 'setuptools' (http://pypi.python.org/pypi/setuptools).
+	3. Install Mercurial (http://mercurial.selenic.com/).
+	4. Open a command prompt> easy_install pip
+
+Running the automation:
+	1. Open a command prompt to project> go
